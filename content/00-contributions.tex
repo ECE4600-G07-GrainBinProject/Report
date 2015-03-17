@@ -1,0 +1,51 @@
+%!TEX root =  ../final-report.tex
+
+\chapter*{Contributions}
+\addcontentsline{toc}{section}{Contributions}
+\PageTitle{CONTRIBUTIONS} 
+
+This project aims to create an affordable and user friendly solution for the detection of spoilage and moisture of grain inside of an industrial grain storage bin. This can be achieved through microwave imaging of the contents of the bin and reproducing a three dimensional image of the different dielectric contents of the bin. A typical microwave imaging system consists of a VNA, an RF multiplexer an array of antennas and a data acquisition and processing unit. The design and testing of these individual components was distributed among the group members as described below. 
+
+Another major contributor to this project was PhD student Mohammad Asefi, who worked closely with our group and provided helpful academic and technical advice.
+
+\clearpage
+
+\newcommand{\RotateName}[1]{
+	\hspace{1mm}\rotatebox[origin=c]{90}{\hspace{1mm}#1\hspace{1mm}}\hspace{3mm}
+}
+
+\newcommand{\LeadTask}{{\Large $\bullet$}}
+\newcommand{\Contributed}{{\Large $\circ$}}
+
+\begin{table}[htdp]
+	\begin{center}
+		\begin{tabular}{|l|c|c|c|c|c|}
+
+% Table header automatically populated. Do not edit.
+\cline{2-6}
+\multicolumn{1}{m{2.5in}|}{} & \RotateName{\StudentNameA} & \RotateName{\StudentNameB} & \RotateName{\StudentNameC} & \RotateName{\StudentNameD} & \RotateName{\StudentNameE} \\\hline
+
+% TASK  					% Stud #1		% Stud #2		% Stud #3		% Stud #4		% Stud #5		% Stud #6		
+Electric field antenna design, simulation and testing 					&  	& 			& \LeadTask			& 			& 		\\\hline
+
+Magnetic field antenna design simulation and testing 					& \LeadTask		 	&	& 	& 			& 	 			\\\hline
+
+Raspberry pi user interface and automation software 					& 		 	&	& 	& \LeadTask			&  			\\\hline
+
+VNA control software 					& 			& 			& 			& \LeadTask		&	\\\hline
+
+RF component of multiplexer PCB design and layout 					&  	& \LeadTask			& 			& 			& 			\\\hline
+
+DC component of multiplexer PCB design and layout 					& 	& 			& 			& 			& \LeadTask 	 			\\\hline
+
+Multiplexer address decoding 					&  	& 			& 			& 			& \LeadTask	 			\\\hline
+
+ESD protection 					& 	& \Contributed 			& 			& 			& \LeadTask	 			\\\hline
+
+VNA and RF multiplexer Performance testing  					& \Contributed  	& 			& 			& \Contributed 			&  	 			\\\hline
+
+		\end{tabular}
+	\end{center}
+\end{table}
+
+Legend: \hspace{2mm} \LeadTask~Lead task \hspace{2mm} \Contributed~Contributed

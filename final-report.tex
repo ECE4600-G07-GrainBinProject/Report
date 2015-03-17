@@ -1,0 +1,284 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ECE 4600 - Final Report Template
+%
+% Authors: Dario Schor and Prof. Behzad Kordi
+% Version: 1.0
+% Date: January 19, 2014
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% INSTRUCTIONS:
+% 	1. Edit the variables in lines 34-63 of this document.
+%	    These will automatically set the title page for your report and
+%	    part of the contributions page.
+%  	2. Add chapters in the "content" folder and update the list of
+%	    chapters to include in the report by inserting the appropriate
+%	    input statements in lines 178+ of this document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% SINGLE sided printing (uncomment the next line and comment out the line for double sided)
+%\documentclass[11pt,letterpaper,twoside]{report}
+% DOUBLE sided printing (uncomment the next line and comment out the line for single sided)
+\documentclass[11pt,letterpaper,twoside]{report}
+
+%%%
+% Packages used
+%%%
+	\usepackage{accsupp}
+	\newcommand{\thelstnumber}{\protect\BeginAccSupp{ActualText={}}\arabic{lstnumber}\protect\EndAccSupp{}}
+	\usepackage{listings}
+	\usepackage{amsmath}				% User for writing equations
+	\usepackage{fancyhdr}				% Used for fancy headers/footers
+	\usepackage{url}					% Used to add URLs
+	\usepackage{graphicx}				% Used to include figures
+	\usepackage{setspace}  				% Used to set spacing between paragraphs
+	\usepackage{hyperref}				% Used for creating document links
+	\usepackage{multirow, array}			% Used for tables
+									% Used to set table captions placements
+	\usepackage[font={small,sf}, labelfont={sf,bf}, margin=1cm, tableposition=top]{caption}
+	\usepackage{verbatim}				% Used to insert text as is
+	\usepackage{textcomp}				% Used for color text
+	\usepackage[titletoc]{appendix} 		% Used to add appendices
+	\usepackage{enumitem}				% Used for alignment in nomenclature
+	\usepackage{tocloft}					% Used to add dots to the table of contents
+	\usepackage{etoolbox}
+	\usepackage{caption}
+	\usepackage{mdwlist}
+	\usepackage{xcolor}
+
+
+
+
+
+
+%%%
+%
+% VARIABLES
+%
+% Set these variables with the names and titles for your project. If you do not need some fields, leave the empty {} brackets.
+%
+%%%
+	\def	\ProjectTitle					{Acquisition System of s-parameters for the Microwave Imaging of a Grain Bin}
+
+	\def 	\ProjectTitleSummary			{Microwave Imaging of a Grain Bin}
+
+	\def 	\GroupNumber					{07}
+	\def	\StudentNameA				{Dimitri Anistratov}
+	\def	\StudentNameB				{Robert Brandt}
+	\def	\StudentNameC				{Shucheng Gu}
+	\def	\StudentNameD				{Kathy Nguyen}
+	\def	\StudentNameE				{Edinam Tettevi}
+	\def	\StudentNameF				{}
+
+	\def 	\AcademicSupervisor			{Joe LoVetri}
+	\def	\AcademicDepartment			{Department of Electrical and Computer Engineering}
+
+	\def 	\AcademicSupervisor			{Joe Lovetri}
+	\def	\AcademicDepartment			{Department of Electrical and Computer Engineering}
+
+	\def 	\CoSupervisor				{Mohammad Asefi}
+
+	\def	\IndustrySupervisorA			{Ian Jeffrey}
+	\def	\IndustrySupervisorACompany		{Academic Supervisor}
+	\def	\IndustrySupervisorB			{Paul Card}
+	\def	\IndustrySupervisorBCompany		{151 Research Inc}
+	\def	\IndustrySupervisorC			{Colin Gilmore}
+	\def	\IndustrySupervisorCCompany		{151 Research Inc}
+
+	\def 	\DateOfSubmission				{March 4, 2015}
+	\def	\Year						{2015}
+
+%%%
+% Document Settings
+%%%
+	\pdfpagewidth 		8.5in		% Set paper size
+	\pdfpageheight 	11in
+	\textheight 		8in		% Set overall area that can be printed
+	\textwidth 			6.5in
+	\topmargin 		0in		% Set top margin (from area printed)
+	\headheight 		0.25in	% Set header height and separation
+	\headsep 			0.25in
+	\oddsidemargin 	0in		% Set left/right margin
+	\evensidemargin 	0in		% (change if using double sided printing)
+
+
+	% Set the page headers
+	\pagestyle{fancy} 			% Define header/footer styles
+	\fancyhf{} 					% delete current setting headers
+	\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+	% Force headers to lower case
+	\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+
+	\newcommand{\ThePageTitle}{}
+	\newcommand{\PageTitle}[1]{\renewcommand{\ThePageTitle}{#1}}
+
+	% Set project title on top-left
+	\fancyhead[L]{\small{\ProjectTitleSummary}}
+	% Set section on top-right
+	\fancyhead[R]{\small{\rightmark}}
+	% Set spacing to account for line
+	\renewcommand{\headrulewidth}{0.5pt}
+	\renewcommand{\footrulewidth}{0.5pt}
+	\addtolength{\headheight}{0.5pt}
+	\fancypagestyle{plain}{
+		\fancyhead[L]{\small{\ProjectTitleSummary}}
+		\fancyhead[R]{\small{\ThePageTitle}}
+		\renewcommand{\headrulewidth}{0.5pt}
+		\renewcommand{\footrulewidth}{0pt}
+		% make space for the rule
+		\addtolength{\headheight}{0.5pt}
+	}
+
+	% Additional spacing separating paragraphs from a table caption
+	\renewcommand{\belowcaptionskip}{10pt}
+	\renewcommand{\abovecaptionskip}{10pt}
+
+
+	% Rename figure label.
+	\renewcommand{\figurename}{Fig.}
+
+	% Table numbering as roman numerals
+	\renewcommand{\thetable}{\thechapter.\Roman{table}}
+
+	% Add dots to the chapters of the table of contents
+	\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+
+	% Fix paragraph spacing
+	\raggedbottom
+
+	% Remove extra spaces in table of figures and list of tables
+	\newcommand*{\noaddvspace}{\renewcommand*{\addvspace}[1]{}}
+	\addtocontents{lof}{\protect\noaddvspace}
+	\addtocontents{lot}{\protect\noaddvspace}
+
+%	\AtBeginEnvironment{figure}{\setlength{\intextsep}{3\baselineskip}}
+
+	\clubpenalty=0
+	\widowpenalty=0
+	\brokenpenalty=0
+	\predisplaypenalty=0
+	\postdisplaypenalty=0
+	\displaywidowpenalty=0
+
+%%%
+% THE BEGINNING
+%%%
+\begin{document}
+    
+	% Insert title page
+	\pagenumbering{roman}
+	\input{content/00-title-page}
+	\thispagestyle{empty}~\clearpage
+	\fancyhead[R]{}
+	\fancyhead[L]{}
+	\fancyfoot[C]{\small \thepage}
+
+	% Start page number on Abstract page
+	\setcounter{page}{1}
+
+	% Set headings/footers for rest of the project
+	\fancyhead[L]{\small{\ProjectTitleSummary}}
+	\PageTitle{\rightmark}
+	\renewcommand{\headrulewidth}{0.5pt}
+	\renewcommand{\footrulewidth}{0pt}
+	\addtolength{\headheight}{0.5pt}
+
+	% 1.5 line spacing throughout the entire document
+	% Because of the spacing between paragraphs and other settings,
+	% double spacing looks like 1.5 spacing
+	\doublespacing
+
+	% Set paragraph indentation
+	\setlength{\parindent}{0.7cm}
+
+	% Include all of the pre-amble
+	\input{content/00-abstract}
+	\input{content/00-contributions}
+	\input{content/00-acknowledgements}
+
+	% Generate Table of Contents (to a certain depth)
+	\newpage
+	\renewcommand\contentsname{Table of Contents}
+	\PageTitle{TABLE OF CONTENTS}
+	\setcounter{tocdepth}{2}
+	\tableofcontents{\fancyhead[R]{\ThePageTitle}  \clearpage
+
+	% Add a List of Figures
+	\newpage
+	\phantomsection \label{listoffig}
+	\addcontentsline{toc}{section}{List of Figures}
+	\PageTitle{LIST OF FIGURES}
+	\listoffigures{\fancyhead[R]{\ThePageTitle} \clearpage
+
+	% Add a List of Tables
+	\newpage
+	\phantomsection \label{listoffig}
+	\addcontentsline{toc}{section}{List of Tables}
+	\PageTitle{LIST OF TABLES}
+	\listoftables{\fancyhead[R]{\ThePageTitle} \clearpage
+
+	% Add Nomenclature & Definitions
+	% To remove the nomenclature, comment out the next line
+	\PageTitle{List of Abbreviations}
+	\newpage \input{content/00-nomenclature} \clearpage
+	\newpage \input{content/00-definitions} \clearpage
+
+%%%
+% Add all documents containing the body of the document
+%%%
+
+	\PageTitle{\rightmark}
+
+	% Set double spacing for body of the report
+	\doublespacing
+
+	% Set headers to use chapter information
+	\fancyhead[L]{\small{\ProjectTitleSummary}}
+	\fancyhead[R]{\small{\rightmark}}
+
+	% Set page number settings
+	\pagenumbering{arabic}
+	\fancyfoot[C]{\small \thepage}
+
+	% Insert all content
+	\input{content/01-introduction}
+	\input{content/02-body-shucheng}
+	\input{content/02-body-dimitri}
+	\input{content/02-body-robert}
+	\input{content/02-body-eddie}
+	\input{content/02-body-kathy}
+	\input{content/07-conclusion}
+
+%%%
+% References
+%%%
+	\newpage
+	\phantomsection \label{references}
+	\singlespacing
+	\bibliographystyle{IEEEtran}
+	\addcontentsline{toc}{chapter}{References}
+	\renewcommand\bibname{References}
+	\bibliography{references}
+
+
+%%%
+% Add Appendices
+%%%
+	\begin{appendices}
+		% Format Page numbering for appendices
+		\input{content/A-appendix}
+		\clearpage
+		\input{content/B-appendix}
+		\clearpage
+		\input{content/C-appendix}
+		\clearpage
+		\input{content/Z-vitae}
+		\clearpage
+		\newpage
+	\end{appendices}
+
+%%%
+% THE END
+%%%
+\end{document}

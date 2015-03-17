@@ -1,0 +1,138 @@
+%!TEX root =  ../final-report.tex
+\renewcommand{\lstlistingname}{Code}% Listing -> Algorithm
+
+\chapter[Appendix B]{S-Parameter Data Acquisition System Software}
+\label{appendix:software}
+
+\section{gbin.sh}
+\label{appendix:gbinsh}
+\lstdefinestyle{sh}{language=bash,
+  basicstyle=\ttfamily,
+  literate = {\$\#}{{{\$\#}}}2,
+  commentstyle=\color{red},
+  keywordstyle=\color{blue},
+  frame=single,
+  numberstyle=\footnotesize, 
+  numbers=left,
+  numbersep=5pt,
+  backgroundcolor=\color{white}, 
+  breaklines=true}
+\lstinputlisting[style=sh, caption=S-Parameter Data Acquisition Shell Script Software]{code/gbin.sh} 
+
+\section{put2str.cs}
+\label{appendix:put2str}
+
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+
+\lstdefinestyle{c}{language=[Sharp]C,
+  showspaces=false,
+  showtabs=false,
+  breaklines=true,
+  showstringspaces=false,
+  breakatwhitespace=true,
+  escapeinside={(*@}{@*)},
+  commentstyle=\color{greencomments},
+  keywordstyle=\color{bluekeywords}\bfseries,
+  stringstyle=\color{redstrings},
+  basicstyle=\ttfamily,
+  numberstyle=\footnotesize, 
+  numbers=left,
+  numbersep=5pt,
+  frame=single}
+  
+\lstinputlisting[style=c, caption=Post-Data Processing Program]{code/put2str.cs} 
+
+
+\section{button.py}
+\label{appendix:button}
+\definecolor{keywords}{RGB}{255,0,90}
+\definecolor{comments}{RGB}{0,0,113}
+\definecolor{red}{RGB}{160,0,0}
+\definecolor{green}{RGB}{0,150,0}
+ 
+\lstdefinestyle{python}{language=Python, 
+        basicstyle=\ttfamily\small, 
+        keywordstyle=\color{keywords},
+        commentstyle=\color{comments},
+        stringstyle=\color{red},
+        showstringspaces=false,
+        identifierstyle=\color{green},
+        frame=single,
+        breaklines=true,
+        numberstyle=\footnotesize, 
+  		numbers=left,
+ 		numbersep=5pt,}
+		
+\lstinputlisting[style=python, caption=Button and LED function on Raspberry Pi 2]{code/button.py}        
+
+\section{gbin.xml}
+
+
+
+\lstdefinestyle{xml}{language=XML,
+      showspaces=false,
+      showtabs=false,
+      breaklines=true,
+      showstringspaces=false,
+      stringstyle=\color{bluekeywords},
+      keywordstyle=\color{redstrings},
+      morekeywords={name, connectionString, providerName},
+      commentstyle=\color{greencomments},
+      frame=single,
+      basicstyle=\ttfamily,
+      numberstyle=\footnotesize, 
+ 	  numbers=left,
+	  numbersep=5pt,}
+      
+\lstinputlisting[style=xml, caption=miniVNA PRO XML Software Configuration File]{code/gbin.xml}
+
+\label{appendix:xml}
+
+\section{Dropbox Setup on the Raspberry Pi 2}
+\label{appendix:dropbox}
+
+The instructions below shows how a user can setup Dropbox on the Raspberry Pi 2 and how it can be linked to their Dropbox account. Note that an Internet connection is required for this installation. For more information on the Dropbox Uploader shell script, please refer to Andrea Fabriz's Github \cite{dropbox}.
+
+\subsection{Setup Instructions}
+\begin{enumerate}
+\item The Dropbox shell script can be downloaded using the following command:
+\begin{verbatim}$ wget https://raw.github.com/andreafabrizi/Dropbox-Uploader/master/dropbox_uploader.sh$
+\end{verbatim}
+\item Permissions on the shell script will need to be changed to make it executable. This can be done by the following command:
+\begin{verbatim}$ chmod +x dropbox_uploader.sh 
+\end{verbatim}
+\item Now Dropbox can be configured for the first time by running 
+\begin{verbatim}$ ./dropbox_uploader.sh 
+\end{verbatim}
+\item Follow the instructions on the screen to create a new Dropbox app on your account from another web browser.  Copy the app key and app secret given by Dropbox after filling out the create a new app form to the terminal window that is running the Dropbox shell script.  
+\item If the given information is correct, you will receive a oAUTH URL to enter into your web browser to verify app access to your Dropbox.
+\item Dropbox on the Raspberry Pi 2 is now linked to your account. See below for Dropbox commands that can run on the Raspberry Pi 2.
+\end{enumerate}
+
+\subsection{'dropbox-uploader.sh' Commands}
+
+$<file/folder>$ is a required parameter
+\\$[file/folder]$ is an option parameter 
+
+\begin{verbatim}./dropbox-uploader.sh upload <LOCAL_FILE/DIR ...> <REMOTE_FILE/DIR>
+\end{verbatim}
+\begin{verbatim}./dropbox-uploader.sh download <REMOTE_FILE/DIR> [LOCAL_FILE/DIR]
+\end{verbatim}
+\begin{verbatim}./dropbox-uploader.sh delete <REMOTE_FILE/DIR>
+\end{verbatim}
+\begin{verbatim}./dropbox-uploader.sh move <REMOTE_FILE/DIR> [REMOTE_FILE/DIR]
+\end{verbatim}
+\begin{verbatim}./dropbox-uploader.sh copy <REMOTE_FILE/DIR> [REMOTE_FILE/DIR]
+\end{verbatim}
+\begin{verbatim}./dropbox-uploader.sh mkdir <REMOTE_DIR> 
+\end{verbatim}
+\begin{verbatim}./dropbox-uploader.sh list <REMOTE_DIR>
+\end{verbatim}
+\begin{verbatim}./dropbox-uploader.sh share <REMOTE_DIR>
+\end{verbatim}
+\begin{verbatim}./dropbox-uploader.sh info
+\end{verbatim}
+\begin{verbatim}./dropbox-uploader.sh unlink
+\end{verbatim}

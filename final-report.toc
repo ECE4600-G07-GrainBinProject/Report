@@ -1,0 +1,68 @@
+\contentsline {section}{Abstract}{i}{section*.1}
+\contentsline {section}{Contributions}{ii}{chapter*.2}
+\contentsline {section}{Acknowledgements}{iv}{chapter*.4}
+\contentsline {section}{List of Figures}{viii}{section*.5}
+\contentsline {section}{List of Tables}{x}{section*.6}
+\contentsline {section}{List of Abbreviations}{xi}{chapter*.7}
+\contentsline {section}{Definitions}{xii}{chapter*.9}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Antennas}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}E-field Antenna}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Research and Preliminary Design}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Antenna Building and Testing}{8}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}H-field Antenna}{13}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Purpose}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Research}{14}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Design}{14}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}PCB Antenna Design}{16}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}PCB Antenna Simulation}{16}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Simulation Results}{17}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}PCB Layout}{17}{subsection.2.2.7}
+\contentsline {subsection}{\numberline {2.2.8}H-field Antenna Testing}{18}{subsection.2.2.8}
+\contentsline {subsection}{\numberline {2.2.9}G-TEM Test Results}{18}{subsection.2.2.9}
+\contentsline {chapter}{\numberline {3}Multiplexer}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}RF Switch}{23}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Background}{23}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Design}{24}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}DC Switching and Power Integration}{27}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Research and Design}{27}{subsection.3.2.1}
+\contentsline {subsubsection}{DC Switch}{27}{section*.43}
+\contentsline {subsubsection}{Hardware}{28}{section*.44}
+\contentsline {subsubsection}{Software}{30}{section*.46}
+\contentsline {subsubsection}{ESD Protection}{30}{section*.47}
+\contentsline {subsubsection}{Power Integration}{31}{section*.48}
+\contentsline {subsection}{\numberline {3.2.2}Design and Implementation}{31}{subsection.3.2.2}
+\contentsline {subsubsection}{DC Switch}{31}{section*.49}
+\contentsline {subsubsection}{Hardware}{32}{section*.50}
+\contentsline {chapter}{\numberline {4}Vector Network Analyzer}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Harware Specifications}{33}{section.4.1}
+\contentsline {section}{\numberline {4.2}Calibration and Testing}{35}{section.4.2}
+\contentsline {section}{\numberline {4.3}miniVNA PRO Software}{37}{section.4.3}
+\contentsline {chapter}{\numberline {5}Microprocessor}{38}{chapter.5}
+\contentsline {section}{\numberline {5.1}Hardware Integration}{38}{section.5.1}
+\contentsline {section}{\numberline {5.2}Software Design and Integration}{39}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Initialization Process}{40}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Data Acquisition Process}{40}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Post-Data Processing}{41}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Data Transmission Process}{43}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}Software Setup and Configuration}{43}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Prerequisites}{44}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Configuration Parameters}{46}{subsection.5.3.2}
+\contentsline {subsubsection}{‘gbin.sh’ Parameters}{46}{section*.65}
+\contentsline {subsubsection}{miniVNA PRO Software Parameters}{46}{section*.67}
+\contentsline {chapter}{\numberline {6}Future Work}{48}{chapter.6}
+\contentsline {section}{\numberline {6.1}Software}{48}{section.6.1}
+\contentsline {section}{\numberline {6.2}RF Multiplexer Module}{49}{section.6.2}
+\contentsline {section}{\numberline {6.3}Antennna}{49}{section.6.3}
+\contentsline {chapter}{\numberline {7}Conclusions}{50}{chapter.7}
+\contentsline {chapter}{References}{52}{section*.69}
+\contentsline {chapter}{Appendix \numberline {A}First Appendix}{53}{Appendix.1.A}
+\contentsline {section}{\numberline {A.1}gbin.sh}{53}{section.1.A.1}
+\contentsline {section}{\numberline {A.2}put2str.cs}{55}{section.1.A.2}
+\contentsline {section}{\numberline {A.3}button.py}{57}{section.1.A.3}
+\contentsline {section}{\numberline {A.4}gbin.xml}{58}{section.1.A.4}
+\contentsline {section}{\numberline {A.5}Dropbox Setup on the Raspberry Pi 2}{61}{section.1.A.5}
+\contentsline {subsection}{\numberline {A.5.1}Setup Instructions}{61}{subsection.1.A.5.1}
+\contentsline {subsection}{\numberline {A.5.2}'dropbox-uploader.sh' Commands}{62}{subsection.1.A.5.2}
+\contentsline {chapter}{Appendix \numberline {B}Second Appendix}{63}{Appendix.1.B}
+\contentsline {chapter}{Appendix \numberline {C}Curriculum Vitae}{64}{Appendix.1.C}

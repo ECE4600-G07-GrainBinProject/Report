@@ -1,0 +1,54 @@
+\noaddvspace 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces equivalent model of meander line sections\relax }}{5}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces meandered monopole antenna geometry\relax }}{6}{figure.caption.12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Resonant frequency of meandered line antenna M0 to M5\relax }}{6}{figure.caption.13}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces resonant frequency vs meandered spacing\relax }}{7}{figure.caption.14}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Bending angle when α= 45,60,75,90,120 degree conditions\relax }}{8}{figure.caption.15}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces the relation between bending angle and resonant frequency\relax }}{8}{figure.caption.16}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces the relation between bending angle and resonant frequency\relax }}{9}{figure.caption.17}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces final antenna view\relax }}{9}{figure.caption.18}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces S11 curve for meandered antenna in HFSS\relax }}{10}{figure.caption.19}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces S11 curve for real testing results\relax }}{10}{figure.caption.20}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces S12 curve for cross-plane polarization in HFSS\relax }}{11}{figure.caption.21}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces S12 curve for co-plane polarization in HFSS\relax }}{11}{figure.caption.22}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces S12 curve for cross-plane polarization in real test\relax }}{12}{figure.caption.23}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces S12 curve for co-plane polarization in real test\relax }}{12}{figure.caption.24}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces \relax }}{15}{figure.caption.25}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces prototype antenna\relax }}{16}{figure.caption.26}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces HFSS model\relax }}{17}{figure.caption.27}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces S11\relax }}{18}{figure.caption.28}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Built antenna S11\relax }}{19}{figure.caption.29}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Loop antenna with shielding\relax }}{19}{figure.caption.30}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Shielding removed\relax }}{20}{figure.caption.31}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces fabricated antenna\relax }}{20}{figure.caption.32}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces field lines in G-TEM for reference\relax }}{21}{figure.caption.33}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces E-orientation\relax }}{21}{figure.caption.34}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces H-orientation\relax }}{22}{figure.caption.35}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Multiplexer connecting VNA to antenna array\relax }}{24}{figure.caption.36}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Initial design of the multiplexer\relax }}{25}{figure.caption.37}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Final design of the multiplexer\relax }}{26}{figure.caption.38}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces PCB layout for SP3T board\relax }}{27}{figure.caption.39}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces PCB layout for top layer of SP8T and SPDT board\relax }}{28}{figure.caption.40}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces PCB layout for bottom layer of SP8T and SPDT board\relax }}{29}{figure.caption.41}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Stack up for PCBs in Altium\relax }}{30}{figure.caption.42}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \relax }}{31}{figure.caption.45}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \relax }}{32}{figure.caption.51}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces miniVNA PRO calibration software.\relax }}{35}{figure.caption.54}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces S11 measurement(real) for both VNAS.\relax }}{36}{figure.caption.55}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces miniVNA PRO open port measurement in reflection mode.\relax }}{36}{figure.caption.56}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces miniVNA PRO Software Output\relax }}{37}{figure.caption.57}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces LED and Button Circuit\relax }}{39}{figure.caption.59}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces S-Parameter Data Acquisition system processes.\relax }}{40}{figure.caption.60}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Flow chart of the Data Acquisition Process.\relax }}{41}{figure.caption.61}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Flow Chart of Post-Data Processing Procedure.\relax }}{42}{figure.caption.62}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Raspberry Pi 2 Pinout \cite {pinout}.\relax }}{63}{figure.caption.71}
+\addvspace {10\p@ }

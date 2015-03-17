@@ -1,0 +1,60 @@
+\BOOKMARK [1][-]{section*.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{chapter*.2}{Contributions}{}% 2
+\BOOKMARK [1][-]{chapter*.4}{Acknowledgements}{}% 3
+\BOOKMARK [1][-]{section*.5}{List of Figures}{}% 4
+\BOOKMARK [1][-]{section*.6}{List of Tables}{}% 5
+\BOOKMARK [1][-]{chapter*.7}{List of Abbreviations}{}% 6
+\BOOKMARK [1][-]{chapter*.9}{Definitions}{}% 7
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 8
+\BOOKMARK [0][-]{chapter.2}{Antennas}{}% 9
+\BOOKMARK [1][-]{section.2.1}{E-field Antenna}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.1.1}{Research and Preliminary Design}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.2}{Antenna Building and Testing}{section.2.1}% 12
+\BOOKMARK [1][-]{section.2.2}{H-field Antenna}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.1}{Purpose}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.2}{Research}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.3}{Design}{section.2.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.4}{PCB Antenna Design}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.5}{PCB Antenna Simulation}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.6}{Simulation Results}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.7}{PCB Layout}{section.2.2}% 20
+\BOOKMARK [2][-]{subsection.2.2.8}{H-field Antenna Testing}{section.2.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.9}{G-TEM Test Results}{section.2.2}% 22
+\BOOKMARK [0][-]{chapter.3}{Multiplexer}{}% 23
+\BOOKMARK [1][-]{section.3.1}{RF Switch}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.1.1}{Background}{section.3.1}% 25
+\BOOKMARK [2][-]{subsection.3.1.2}{Design}{section.3.1}% 26
+\BOOKMARK [1][-]{section.3.2}{DC Switching and Power Integration}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.2.1}{Research and Design}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.2}{Design and Implementation}{section.3.2}% 29
+\BOOKMARK [0][-]{chapter.4}{Vector Network Analyzer}{}% 30
+\BOOKMARK [1][-]{section.4.1}{Harware Specifications}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{Calibration and Testing}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.3}{miniVNA PRO Software}{chapter.4}% 33
+\BOOKMARK [0][-]{chapter.5}{Microprocessor}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Hardware Integration}{chapter.5}% 35
+\BOOKMARK [1][-]{section.5.2}{Software Design and Integration}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.2.1}{Initialization Process}{section.5.2}% 37
+\BOOKMARK [2][-]{subsection.5.2.2}{Data Acquisition Process}{section.5.2}% 38
+\BOOKMARK [2][-]{subsection.5.2.3}{Post-Data Processing}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.4}{Data Transmission Process}{section.5.2}% 40
+\BOOKMARK [1][-]{section.5.3}{Software Setup and Configuration}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.3.1}{Prerequisites}{section.5.3}% 42
+\BOOKMARK [2][-]{subsection.5.3.2}{Configuration Parameters}{section.5.3}% 43
+\BOOKMARK [0][-]{chapter.6}{Future Work}{}% 44
+\BOOKMARK [1][-]{section.6.1}{Software}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.2}{RF Multiplexer Module}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.3}{Antennna}{chapter.6}% 47
+\BOOKMARK [0][-]{chapter.7}{Conclusions}{}% 48
+\BOOKMARK [0][-]{section*.69}{References}{}% 49
+\BOOKMARK [0][-]{Appendix.1.A}{Appendix Appendix A}{}% 50
+\BOOKMARK [0][-]{Appendix.1.B}{Appendix Appendix B}{}% 51
+\BOOKMARK [1][-]{section.1.B.1}{gbin.sh}{Appendix.1.B}% 52
+\BOOKMARK [1][-]{section.1.B.2}{put2str.cs}{Appendix.1.B}% 53
+\BOOKMARK [1][-]{section.1.B.3}{button.py}{Appendix.1.B}% 54
+\BOOKMARK [1][-]{section.1.B.4}{gbin.xml}{Appendix.1.B}% 55
+\BOOKMARK [1][-]{section.1.B.5}{Dropbox Setup on the Raspberry Pi 2}{Appendix.1.B}% 56
+\BOOKMARK [2][-]{subsection.1.B.5.1}{Setup Instructions}{section.1.B.5}% 57
+\BOOKMARK [2][-]{subsection.1.B.5.2}{'dropbox-uploader.sh' Commands}{section.1.B.5}% 58
+\BOOKMARK [0][-]{Appendix.1.C}{Appendix Appendix C}{}% 59
+\BOOKMARK [0][-]{Appendix.1.D}{Appendix Curriculum Vitae}{}% 60
